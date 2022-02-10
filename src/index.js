@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Header from './Common/Header'
+import Slider from './Common/Slider';
+import Content from './Common/Content'
+import Modal from './Common/Modal';
+import Contact from './Common/Contact'
+import Footer from './Common/Footer';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Slider />
+    <Content />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

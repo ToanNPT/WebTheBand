@@ -1,0 +1,80 @@
+.row{
+    margin-left:-8px;
+    margin-right:-8px;
+   
+}
+.row::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.col{
+    float:left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: calc(50% - 16px);
+
+}
+.col-full{
+    width: calc(100% - 16px);
+}
+
+.mt-8{
+    margin-top:8px;
+}
+
+.contact-icon{
+    
+}
+
+.contact-container{
+    padding-top: 22px;
+    overflow: hidden;
+}
+
+.col.col-half.contact-info > p{
+    margin: 0px;
+}
+
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i{
+    display: inline-block;
+    width: 30px;
+}
+
+.contact-form{
+    font-size: 18px;
+}
+
+.form-control{
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+    width: calc(100% - 16px);
+}
+
+.form-submit-btn{
+    padding: 9px 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.form-submit-btn:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.map-section img{
+    width: 100%;
+}

@@ -1,0 +1,164 @@
+#content .content-section{
+    width: 800px;
+    box-sizing: border-box;
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+#content .sub-heading-section{
+    margin: 25px 0px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .sub-heading-section,
+#content .about-section{
+    font-size: 15px;
+}
+
+#content .section-heading,
+#content .sub-heading-section{
+    text-align: center;
+}
+
+#content .about-section{
+    text-align: justify;
+    margin-top: 0px;
+    line-height: 1.4;
+}
+
+#content .members-list{
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+#content .member-name{
+    font-size: 15px;
+    font-weight: 450;
+}
+
+#content .member-item{
+    float: left;
+    width: calc(100% /3);
+    text-align: center;
+}
+
+#content .member-img{
+    width: 155px;
+    border-radius: 4px;
+}
+
+#content .tour-section{
+    background-color: #000;
+}
+
+#content .tour-section .section-heading,
+#content .tour-section .sub-heading-section{
+    color: #fff;
+}
+
+#content .tickets-list{
+    background-color: #fff;
+    list-style-type: none;
+    margin-top: 40px;
+    padding-left: 0px;
+}
+
+.tour-section .tickets-list li{
+    font-size: 15px;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+
+.tour-section .tickets-list .sold-out{
+    padding: 0px 8px;
+    margin-left: 16px;
+    background-color: #f44336;
+    color: #fff;
+}
+
+.tour-section .tickets-list .quality{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    margin-right: 16px;
+    margin-top: -3px;
+}
+
+.places-list{
+    overflow: hidden;
+    margin-top: 32px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 32px;
+}
+
+.places-list .place-item{
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #fff;
+    background-clip: content-box;
+}
+
+.places-list .place-name{
+
+}
+
+.places-list .place-name,
+.places-list .place-date,
+.places-list .place-content{
+    margin: 15px 0px;
+
+}
+
+.places-list .place-date{
+    opacity: 0.6;
+}
+.places-list .place-content{
+
+}
+
+.places-list .btn-place-order{
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: 0px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.places-list .btn-place-order:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.places-list .place-body{
+    padding: 0.15px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.places-list .place-img{
+    width: 100%;
+}
+.places-list .place-img:hover{
+    opacity: 0.6;
+}

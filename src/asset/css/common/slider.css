@@ -1,0 +1,28 @@
+#slider{
+    position: relative;
+    margin-top: 46px;
+    background-color: #ccc;
+    /* width: 100%; */
+    padding-top: 50%;
+    background: url('/src/asset/img/slider3.jpg') top center /cover no-repeat;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 32px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#slider .text-heading{
+    margin: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+#slider .text-description{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}

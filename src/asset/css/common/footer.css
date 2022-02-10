@@ -1,0 +1,30 @@
+.section-footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.social-list{
+    font-size: 24px;
+}
+
+.social-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    width: 30px;
+    display: inline-block;
+}
+
+.social-list a:hover{
+    opacity: 0.6;
+}
+
+.copyright{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.6;
+}
+
+.copyright a{
+    color: #000;
+}
+
