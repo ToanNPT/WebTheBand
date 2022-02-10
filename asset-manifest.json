@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ToanNPT/WebTheBand.git/static/css/main.3ff59650.css",
+    "main.js": "/ToanNPT/WebTheBand.git/static/js/main.fddc38fa.js",
+    "static/js/787.8934e023.chunk.js": "/ToanNPT/WebTheBand.git/static/js/787.8934e023.chunk.js",
+    "static/media/themify.svg?-fvbane": "/ToanNPT/WebTheBand.git/static/media/themify.f0fc8c798eac5636249c.svg",
+    "static/media/themify.eot": "/ToanNPT/WebTheBand.git/static/media/themify.9bad94440d49256265a5.eot",
+    "static/media/themify.ttf?-fvbane": "/ToanNPT/WebTheBand.git/static/media/themify.eda8b94308c6f538f04a.ttf",
+    "static/media/themify.woff?-fvbane": "/ToanNPT/WebTheBand.git/static/media/themify.29b39089170885ae2967.woff",
+    "static/media/slider3.jpg": "/ToanNPT/WebTheBand.git/static/media/slider3.b307fa40789be4e77541.jpg",
+    "static/media/logo.svg": "/ToanNPT/WebTheBand.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ToanNPT/WebTheBand.git/index.html",
+    "main.3ff59650.css.map": "/ToanNPT/WebTheBand.git/static/css/main.3ff59650.css.map",
+    "main.fddc38fa.js.map": "/ToanNPT/WebTheBand.git/static/js/main.fddc38fa.js.map",
+    "787.8934e023.chunk.js.map": "/ToanNPT/WebTheBand.git/static/js/787.8934e023.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ff59650.css",
+    "static/js/main.fddc38fa.js"
+  ]
+}
