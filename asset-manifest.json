@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebTheBand/static/css/main.3b889fba.css",
-    "main.js": "/WebTheBand/static/js/main.ed19ee9e.js",
+    "main.css": "/WebTheBand/static/css/main.dc871e91.css",
+    "main.js": "/WebTheBand/static/js/main.400a4b40.js",
     "static/js/787.8934e023.chunk.js": "/WebTheBand/static/js/787.8934e023.chunk.js",
     "static/media/themify.svg?-fvbane": "/WebTheBand/static/media/themify.f0fc8c798eac5636249c.svg",
     "static/media/themify.eot": "/WebTheBand/static/media/themify.9bad94440d49256265a5.eot",
@@ -10,12 +10,12 @@
     "static/media/slider3.jpg": "/WebTheBand/static/media/slider3.b307fa40789be4e77541.jpg",
     "static/media/logo.svg": "/WebTheBand/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/WebTheBand/index.html",
-    "main.3b889fba.css.map": "/WebTheBand/static/css/main.3b889fba.css.map",
-    "main.ed19ee9e.js.map": "/WebTheBand/static/js/main.ed19ee9e.js.map",
+    "main.dc871e91.css.map": "/WebTheBand/static/css/main.dc871e91.css.map",
+    "main.400a4b40.js.map": "/WebTheBand/static/js/main.400a4b40.js.map",
     "787.8934e023.chunk.js.map": "/WebTheBand/static/js/787.8934e023.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b889fba.css",
-    "static/js/main.ed19ee9e.js"
+    "static/css/main.dc871e91.css",
+    "static/js/main.400a4b40.js"
   ]
 }
