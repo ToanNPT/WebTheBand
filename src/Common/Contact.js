@@ -1,16 +1,17 @@
 import '../asset/css/common/content.css';
 import '../asset/css/common/contact.css';
+import '../asset/css/common/responsive.css';
 import {Fragment} from 'react';
 function Contact(){
     return(
         <Fragment>
         <div id ="content">
-            <div className="content-section">
+            <div className="content-section" id = "contact">
                 <h2 className="section-heading">CONTACT</h2>
                 <p className="sub-heading-section">Fan? Drop a note!</p>
 
                 <div className="row contact-container">
-                    <div className="col col-half contact-info">
+                    <div className="col col-half s-coll-full contact-info">
                         <p>
                             <i className="contact-icon ti-location-pin" />
                             Chicago, US
@@ -25,13 +26,13 @@ function Contact(){
                         </p>
                     </div>
 
-                    <div className="col col-half contact-form">
+                    <div className="col col-half s-coll-full contact-form">
                         <form action="">
                             <div className="row">
-                                <div className="col col-half">
+                                <div className="col col-half s-coll-full">
                                     <input type="text" name="" required id="" className="form-control" placeholder="Name"/>
                                 </div>
-                                <div className="col col-half">
+                                <div className="col col-half s-coll-full mt-8">
                                     <input type="email" required name="" id="" className="form-control" placeholder="Email"/>
                                 </div>
                             </div>
@@ -40,7 +41,7 @@ function Contact(){
                                     <input type="text" name="" id="" className="form-control" placeholder="Message"/>
                                 </div>
                             </div>
-                            <input className="form-submit-btn" type="submit" value="SEND" />
+                            <input className="form-submit-btn mobile-submit" type="submit" value="SEND" />
                         </form>
                     </div>
 

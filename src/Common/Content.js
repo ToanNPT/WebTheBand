@@ -1,5 +1,6 @@
 import '../asset/css/common/content.css';
 import '../asset/css/common/modal.css';
+import '../asset/css/common/responsive.css';
 import Modal from '../Common/Modal'
 import { Fragment, useRef} from 'react'
 
@@ -35,7 +36,7 @@ function Content(){
                 </div>
             </div>
             
-            <div className="tour-section">
+            <div className="tour-section" id="tour">
                 <div className="content-section">
                     <h2 className="section-heading">TOUR DATES</h2>
                     <p className="sub-heading-section">Remember to book your tickets!</p>
@@ -47,7 +48,7 @@ function Content(){
                     </ul>
 
                     <div className="places-list">
-                        <div className="place-item">
+                        <div className="place-item mobile-place-item">
                             <img 
                                 src="https://www.w3schools.com/w3images/newyork.jpg" 
                                 alt="New York" 
@@ -63,7 +64,7 @@ function Content(){
                             </div>
                         </div>
 
-                        <div className="place-item">
+                        <div className="place-item  mobile-place-item">
                             <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" className="place-img" />
                             <div className="place-body">
                                 <h3 className="place-name">Paris</h3>
@@ -75,7 +76,7 @@ function Content(){
                             </div>
                         </div>
 
-                        <div className="place-item">
+                        <div className="place-item  mobile-place-item">
                             <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="San Francisco" className="place-img" />
                             <div className="place-body">
                                 <h3 className="place-name">San Francisco</h3>

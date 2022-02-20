@@ -1,5 +1,6 @@
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     box-sizing: border-box;
     padding: 64px 16px;
     margin-left: auto;
